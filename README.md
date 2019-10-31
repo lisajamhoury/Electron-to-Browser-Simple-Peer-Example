@@ -1,8 +1,8 @@
 # Electron to Browser Connection with Simple Peer
 
-This combines the [Electron Quick Start](https://electronjs.org/docs/tutorial/quick-start) with the [Realtime Communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web/#0) Signal Server from Codelabs with [Simple Peer](https://github.com/feross/simple-peer).
+This combines [Electron Quick Start](https://electronjs.org/docs/tutorial/quick-start) with [Realtime Communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web/#0) Signal Server from Codelabs with [Simple Peer](https://github.com/feross/simple-peer).
 
-It runs a Socket.io signal server, then a peer connection over webRTC using Simple Peer between Electron and the browser. Electron serves the signal server. This currently runs over localhost. 
+It runs a Socket.io signal server, then a peer connection over webRTC using Simple Peer between Electron and the browser. Electron serves the signal server. This currently runs over localhost on port 3000. 
 
 ## To Use
 
