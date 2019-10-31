@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+electron_app/node_modules
+browser_client/node_modules
