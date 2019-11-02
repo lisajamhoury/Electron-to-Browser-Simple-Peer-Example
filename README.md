@@ -4,9 +4,9 @@ This combines [Electron Quick Start](https://electronjs.org/docs/tutorial/quick-
 
 It runs a Socket.io signal server, then a peer connection over webRTC using Simple Peer between Electron and the browser. Electron serves the signal server. This currently runs over localhost on port 3000.
 
-For Mac OS use master branch or [binaryexample branch](https://github.com/lisajamhoury/Electron-to-Browser-Simple-Peer-Example/tree/binaryexample). For Windows, use [binaryexample branch](https://github.com/lisajamhoury/Electron-to-Browser-Simple-Peer-Example/tree/binaryexample) only. Windows 10 does not allow for two apps to simultaniously use the webcam, so the master branch getUserMedia example will not work.
-
 ## To Use
+
+For Mac OS use master branch or [binaryexample branch](https://github.com/lisajamhoury/Electron-to-Browser-Simple-Peer-Example/tree/binaryexample). For Windows, use [binaryexample branch](https://github.com/lisajamhoury/Electron-to-Browser-Simple-Peer-Example/tree/binaryexample) only. Windows 10 does not allow for two apps to simultaniously use the webcam, so the master branch getUserMedia example will not work.
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
