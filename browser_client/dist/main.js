@@ -14293,7 +14293,10 @@ const options = {
   reconnect: true,
   rejectUnauthorized: false
 };
-const socket = io.connect("https://8bf250a1.ngrok.io/", options);
+
+// use localhost, ip on local network, or ngrok address
+// ie. https://8bf250a1.ngrok.io/, more here https://dashboard.ngrok.com/get-started
+const socket = io.connect("https://localhost:443", options);
 let peer;
 const room = "foo"; // Could prompt for room name: // room = prompt('Enter room name:');
 
