@@ -25,13 +25,14 @@ cd Electron-to-Browser-Simple-Peer-Example/browser_client
 npm install
 # Run a simple python server on your localhost
 # If python 2
-python -m SimpleHTTPServer
+python -m SimpleHTTPServer 8000
 # If python 3
-python -m http.server
+python -m http.server 8000
 
 # To make changes to client, run watchify in separate command line window
 npm run watch
 ```
+Open http://localhost:8000/dist in your browser. Open the developer console (option+command+I) to see communication between Electron and browser client. 
 
 ## License
 
